@@ -398,3 +398,4 @@ Checkout previously checked-out branch | `git checkout -`
 Search in git command history | `CTRL-R`
 Check out file from another branch | `git checkout <branch_name> -- <paths>`
 Cherry pick a merge commit, appending a line saying “cherry picked from commit”  |  `git cherry-pick -x -m 1 <sha1>`
+Merge a file from another branch | `git checkout solution; git checkout master README.md; git add README.md; commit -m "Merged README from master"`
